@@ -67,7 +67,8 @@ last name and use a nested Markdown list, as in the instructor's example:
   - Share experience completing real-world data-science projects.
   - Help students develop reproducible and collaborative working habits.
 - Anikeev, Katerina
-  - Improve my ability to navigate, arrange, and complete computing tasks through the command line
+  - Improve my ability to navigate, arrange, and complete computing tasks
+    through the command line
 - Bucco, Sadie
 - Chervonny, Erik
 - Chok, Isaac
