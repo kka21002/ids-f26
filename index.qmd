@@ -71,7 +71,7 @@ last name and use a nested Markdown list, as in the instructor's example:
     through the command line.
   - Better understand how to apply data-science skills to various topics, 
     including research in political science.
-  - improve my python skills 
+  - Learn more python skills and exercise my current abilities. 
 - Bucco, Sadie
 - Chervonny, Erik
 - Chok, Isaac
