@@ -68,7 +68,10 @@ last name and use a nested Markdown list, as in the instructor's example:
   - Help students develop reproducible and collaborative working habits.
 - Anikeev, Katerina
   - Improve my ability to navigate, arrange, and complete computing tasks
-    through the command line
+    through the command line.
+  - Better understand how to apply data-science skills to various topics, 
+    including research in political science.
+  
 - Bucco, Sadie
 - Chervonny, Erik
 - Chok, Isaac
