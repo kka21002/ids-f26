@@ -1,0 +1,58 @@
+---
+title: "This is a test"
+subtitle: "Example topic presentation"
+author: "Instructor-created example"
+format:
+  revealjs:
+    slide-number: true
+    preview-links: auto
+jupyter: python3
+---
+
+# Why use an API?
+
+An application programming interface, or API, lets a program request data in
+a documented format. An API can make an analysis repeatable because the data
+request is recorded in code.
+
+## Separate the request from the analysis
+
+The following example uses a local response so that the presentation renders
+without a network connection:
+
+```{python}
+import json
+
+response = '{"city": "Storrs", "temperature": 19, "unit": "C"}'
+observation = json.loads(response)
+observation
+```
+
+## Inspect the returned data
+
+```{python}
+print(f"City: {observation['city']}")
+print(f"Temperature: {observation['temperature']}°{observation['unit']}")
+```
+
+The analysis uses named fields rather than relying on a particular display
+order. Real API work should also record the endpoint, request parameters,
+access date, and any authentication or rate-limit requirements.
+
+## Common mistakes
+
+- Assuming that a successful request means the values are correct.
+- Failing to inspect missing values, units, and field definitions.
+- Hard-coding a private API key in a Quarto document or Git repository.
+- Depending on a live service when a small response can be saved for review.
+
+## Takeaways
+
+1. Read the API documentation before writing the request.
+2. Inspect the returned structure before analyzing values.
+3. Record enough information for another person to reproduce the request.
+
+# Sources
+
+This example uses a small invented JSON response and requires no external
+service.
