@@ -3,6 +3,7 @@
 **/.quarto/
 **/_freeze/
 **/*.quarto_ipynb
+**/index_files/
 *.html
 # LaTeX syllabus build products
 *.aux

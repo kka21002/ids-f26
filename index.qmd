@@ -1,3 +1,8 @@
+---
+execute:
+  freeze: false
+---
+
 # Introduction {.unnumbered}
 
 <!--
@@ -127,6 +132,8 @@ instead of repeating substantial instructor-authored exposition.
 The
 [example Quarto presentation](topic/example-quarto-presentations/)
 demonstrates the expected directory layout and basic slide conventions.
+The [presentation-skills example](topic/presentation-skills/) discusses
+storytelling, visual design, delivery, and evidence-based claims.
 
 ## Wishlist
 
@@ -140,31 +147,81 @@ last name and use a nested Markdown list, as in the instructor's example:
   - Help students develop reproducible and collaborative working habits.
 - Anikeev, Katerina
 - Bucco, Sadie
-- Chervonny, Erik 
+  - Become proficient using GitHub and git commands
+  - Work on writing code that is clear and reproducible
+  - Get more comfortable using keyboard shortcuts instead of relying on my mouse
+- Chervonny, Erik
+  - Improve my practical problem solving through data science projects and real life data.
+  - Transfer skills in using data science tools to other STEM courses, by developing a consistent workflow.
+  - Leverage data science methods I learn in the class to build a career in the STEM field.
 - Chok, Isaac
+  - Get familiar and comfortable with git and the command line.
+  - Build experience in data wrangling and visualization.
+  - Learn statistical modeling using Python.
 - Choudhury, Ruhama
+   - Become proficient in using Git and GitHub.
+   - Develop stronger Python skills.
+   - Apply data science to real world problems like financial analysis and sports statistics.
 - Distefano, Cristian
+  - Become more confident using Git and GitHub for collaborative projects.
+  - Strengthen my Data Science skills through practice and projects.
+  - Learn how to communicate data-driven/derived results clearly.
 - Fontana, Adam
+    - Become proficient in Git and GitHub workflows.
+    - Learn which models to use and when, including which models are 
+    best suited for different datasets and uses.
+    - Develop stronger skills in interpreting and evaluating 
+    black box models, such as XGBoost models.
 - Hartman, Mikaela
+  - Become more comfortable using critical software like GitHub, Git, and WSL.
+  - Expand my knowledge of Python and improve my general coding skills.
+  - Gain real-world data-science skills that are applicable in a work setting.
 - Hilmi, Sofiane
 - Horan, Elizabeth
+    - Improve at using GitHub.
+    - Do a project involving political polling data. 
+    - Improve my Python skills.
 - Kelly, Daniel
+    - Become more comfortable using Python and Terminal.
+    - Learn to use Git and GitHub confidently.
+    - Become better at working with real-world data.
 - Kiani, Ismail 
-  - i want to get fimilarise ith git hub. 
-  
+  - I want to become more familiar with GitHub and its branch-based workflow.
+  - I want to improve my Git command-line skills for managing version-controlled projects.
+  - I want to learn how to collaborate effectively on team projects using GitHub.  
 - Liu, Ethan
 - Mansur, Mahiba
+  - I want to get more comfortable using GitHub.
+  - I want to gain more hands on experience with different machine learning models.
+  - Create projects that help gain real life data science experience.
 - Maras, Ruveyda
 - Mettler, Ethan
 - Morissette, Carter
+  - Depend less on AI help while coding as the semester progresses, especially when troubleshooting errors.
+  - Build genuine comfort with git and the command line, not just copy-pasted commands from tutorials.
+
 - Nair, Pardhip
 - Noe, Amanda
 - Ong, Enrico
+  - Build fluency with the command line for everyday data-science tasks.
+  - Practice core Git operations: cloning, pushing, and pulling changes.
+  - Get comfortable creating and managing branches for real projects.
 - Parkins, Jack
+  - Learn to present a model to a non-technical audience.
+  - Get fluent with pandas and scikit-learn for exploratory work.
+  - Familiarize myself with github and gitbash.
 - Rosen, Seth
 - Tria, Nicholas
+  - Get more comfortable using Git and GitHub to improve my efficiency.
+  - Gain experience using Python code to visualize and interpret data.
+  - Learn more about the importance of data science as a discipline.
 - Wang, Chaoyang
+  - Develop practical skills with Git and GitHub workflows, including git add, git diff, git status, git commit, and git push.
+  - Strengthen my ability to use Python for data science application, getting ready for studying deep learning and reinforcement learning. 
+  - Learn how to communicate reproducible results efficiently and clearly with Quarto.
 - Wang, Leo
+  - Learn to create clear and informative data visualizations.
+  - Learn to fit statistical models and interpret their results.
 
 Add the goals through a focused pull request. Do not edit anyone else's entry
 or include private information.
@@ -193,21 +250,68 @@ project ideas include:
 [Add current milestones, deliverables, presentation requirements, and links to
 time-sensitive challenges.]
 
+### Final Presentation Peer Evaluation
+
+Each student evaluates every other presenter using the same three criteria.
+Rate each criterion on a 5--1 scale, where 5 means excellent and 1 means
+poor. Do not evaluate your own presentation. Base each rating on evidence from
+the presentation and add a brief comment explaining the rating.
+
+Use the following general scale:
+
+- **5 -- Excellent:** exceptional, complete, and convincing;
+- **4 -- Strong:** clear and effective, with only minor weaknesses;
+- **3 -- Adequate:** generally satisfactory, but with noticeable gaps;
+- **2 -- Limited:** partially successful, but with substantial weaknesses; and
+- **1 -- Poor:** missing, seriously flawed, or not understandable.
+
+- **Domain:** Does the presentation motivate the work adequately? Does it
+  explain what the project is for and why it matters? Does it place the project
+  in context by reviewing relevant existing work appropriately?
+- **Methods:** Are the variables meaningfully constructed? Are the methods
+  appropriate for the problem, and are they adapted effectively to the
+  application? Are the computational methods used appropriately? Does the
+  presentation acknowledge important limitations?
+- **Presentation:** Is the presentation clear, professional, and informative
+  for a general audience? Are the findings interpreted effectively in
+  nontechnical language? Do the tables and figures communicate the intended
+  information clearly?
+
 ## Topic Presentations
 
-The private course syllabus contains the assessment policies for topic
-presentations. This public chapter documents the presentation order, topic
-options, schedule, and contribution workflow without reproducing grading
-details.
+The private course syllabus contains the official assessment policies for topic
+presentations. This public chapter also provides the working rubric so that
+contributors understand what makes a strong presentation, pull request, and
+revision.
+
+### Topic Presentation Rubric
+
+Topic presentations are worth 20 points. A topic presentation is a focused
+teaching contribution, not a final research project; original data, advanced
+methods, and novel findings are not required.
+
+- **Approval and preview: 4 points.** The topic is focused and appropriate,
+  the proposed approach is approved, the preview is submitted on time, and
+  the deck is sufficiently complete to review. Sources should be identified,
+  and examples should run when computation is part of the presentation.
+- **Oral presentation: 10 points.** The presentation motivates the topic and
+  explains its main idea accurately (3 points), develops a useful example and
+  interprets its output correctly (3 points), discusses limitations, common
+  mistakes, and specific takeaways (2 points), and uses readable slides with
+  clear, organized, and engaging delivery (2 points).
+- **Pull request and revision: 6 points.** The source is organized,
+  reproducible, and properly attributed (2 points); the contributor responds
+  to review with a meaningful revision and maintains a focused pull request
+  (2 points); and the final source and topical catalog entry are complete and
+  correctly linked (2 points).
 
 ### Presentation Order
 
-The topic presentation order will be finalized in class. Each student will
-contribute one digit to the random seed. The current seed produces a
-provisional order; after the contributed digits replace it, the same seed will
-reproduce the final order on every render.
+The topic presentation order was set in class. Each student contributed one
+digit to the random seed, and the same seed reproduces the order on every
+render.
 
-```
+```{python}
 #| eval: true
 #| echo: true
 import csv
@@ -221,16 +325,17 @@ with open("roster.txt", newline="") as file:
 
 import random
 
-## seed jointly set by the class, with one digit from each student
-random.seed(0)  # replace 0 with the sum of the contributed digits
+## seed jointly set by the class on 09/16/26,
+## with one digit from each student in class
+random.seed(1623 + 4958 + 3751 + 55)
 random.sample(presenters, len(presenters))
 ```
 
-The displayed order is provisional until the class sets the seed. The final
-order will establish priority for topic selection and the default sequence for
-topic presentations. Some topics have prerequisites, so the instructor may
-adjust the schedule. Students may exchange slots by mutual agreement. Record
-an approved change through a pull request and notify the instructor.
+The displayed order establishes priority for topic selection and the default
+sequence for topic presentations. Some topics have prerequisites, so the
+instructor may adjust the schedule. Students may exchange slots by mutual
+agreement. Record an approved change through a pull request and notify the
+instructor.
 
 ### Selecting a Topic and Task Board
 
@@ -297,24 +402,72 @@ provides possible topics; other topics may be added or refined with approval.
 
 ### Schedule
 
-The dated schedule will be completed after topics and presentation dates are
-confirmed. The topic title should link to the rendered slides after the
-student's contribution is accepted.
+The topic presentation schedule follows the seeded order. Topic presentations
+begin with one presentation per meeting, increase to two, and end with three
+before the final-project presentation period. October 19 and 21 are reserved
+for midterm-project work, and the Thanksgiving recess has no classes. Link the
+topic title to the rendered slides after the student's contribution is
+accepted.
 
 | Date | Presenter | Topic |
 |---|---|---|
-| [date] | [name] | [topic] |
+| 09/28 | Liu, Ethan | [topic] |
+| 09/30 | Noe, Amanda | [topic] |
+| 10/05 | Anikeev, Katerina | [topic] |
+| 10/07 | Chervonny, Erik | [topic] |
+| 10/12 | Mansur, Mahiba | [topic] |
+| 10/14 | Ong, Enrico | [topic] |
+| 10/19 | — | Midterm-project work; no topic presentations |
+| 10/21 | — | Midterm-project work; no topic presentations |
+| 10/26 | Fontana, Adam | K-Means Clustering |
+| 10/28 | Wang, Chaoyang | [topic] |
+| 11/02 | Bucco, Sadie | [topic] |
+| 11/04 | Tria, Nicholas | [topic] |
+| 11/04 | Parkins, Jack | [topic] |
+| 11/09 | Chok, Isaac | [topic] |
+| 11/09 | Horan, Elizabeth | [topic] |
+| 11/11 | Distefano, Cristian | [topic] |
+| 11/11 | Nair, Pardhip | [topic] |
+| 11/11 | Morissette, Carter | [topic] |
+| 11/16 | Maras, Ruveyda | [topic] |
+| 11/16 | Wang, Leo | [topic] |
+| 11/16 | Choudhury, Ruhama | [topic] |
+| 11/18 | Hartman, Mikaela | [topic] |
+| 11/18 | Kiani, Ismail | [topic] |
+| 11/18 | Kelly, Daniel | [topic] |
 
 ### Final Project Presentation Schedule
 
-The final-project presentation schedule ordinarily follows the same student
-order. The [Final Project Presentations](chapters/final-project-presentations.qmd)
-chapter collects links to the rendered decks. Dates, locations, and any grouping
-of presenters will be added when the course calendar is finalized.
+The final-project presentation schedule follows the same seeded student order.
+The final two instructional weeks and the exam-period meeting are reserved for
+final presentations. Replace the exam-period placeholder with the confirmed
+date. The [Final Project Presentations](chapters/final-project-presentations.qmd)
+chapter collects links to the rendered decks.
 
-| Date | Location | Presenter |
+| Date | Presenter | Project |
 |---|---|---|
-| [date and time] | [location] | [name] |
+| 11/30 | Liu, Ethan | [project] |
+| 11/30 | Noe, Amanda | [project] |
+| 11/30 | Anikeev, Katerina | [project] |
+| 11/30 | Chervonny, Erik | [project] |
+| 12/02 | Mansur, Mahiba | [project] |
+| 12/02 | Ong, Enrico | [project] |
+| 12/02 | Chok, Isaac | [project] |
+| 12/02 | Wang, Chaoyang | [project] |
+| 12/07 | Bucco, Sadie | [project] |
+| 12/07 | Tria, Nicholas | [project] |
+| 12/07 | Parkins, Jack | [project] |
+| 12/07 | Fontana, Adam | [project] |
+| 12/09 | Horan, Elizabeth | [project] |
+| 12/09 | Distefano, Cristian | [project] |
+| 12/09 | Nair, Pardhip | [project] |
+| 12/09 | Morissette, Carter | [project] |
+| [exam-period date] | Maras, Ruveyda | [project] |
+| [exam-period date] | Wang, Leo | [project] |
+| [exam-period date] | Choudhury, Ruhama | [project] |
+| [exam-period date] | Hartman, Mikaela | [project] |
+| [exam-period date] | Kiani, Ismail | [project] |
+| [exam-period date] | Kelly, Daniel | [project] |
 
 ## Contributing to the Collaborative Notes
 
@@ -340,8 +493,10 @@ Before requesting review, check that the contribution:
 
 - is original and properly attributes all sources;
 - follows the example presentation structure and has a matching chapter entry;
-- follows the repository's file-naming and source-writing conventions;
-- keeps lines reasonably short;
+- follows the repository's file-naming and source-writing conventions,
+  including a line width under 80 characters for prose and Markdown source;
+- uses small, meaningful commits throughout the work rather than one large
+  final commit, without creating empty or artificial commits;
 - uses BibTeX for scholarly references;
 - avoids unnecessary external files and large data files;
 - uses only images that may legally be redistributed;

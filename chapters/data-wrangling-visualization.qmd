@@ -12,6 +12,12 @@ This example introduces RevealJS presentations in Quarto, including slide
 structure, executable Python code, figures, and a pre-submission rendering
 check.
 
+**Presentation-skills example:**
+[Presentation skills for data science](../topic/presentation-skills/)
+
+This example focuses on clear stories, readable slides, effective delivery,
+and claims that are proportionate to the evidence.
+
 **Topic example:**
 [Reading a plot](../topic/plot/)
 

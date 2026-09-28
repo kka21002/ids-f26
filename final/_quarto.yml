@@ -1,9 +1,0 @@
-project:
-  type: default
-  output-dir: ../_book/final
-  render:
-    - "*/index.qmd"
-
-execute:
-  enabled: true
-  freeze: auto

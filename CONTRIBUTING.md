@@ -76,8 +76,8 @@ topic/plot/
 └── figures/
 ```
 
-Keep the shared Quarto configuration in `topic/_quarto.yml`; do not create a
-new project configuration in each presentation directory.
+Use the repository's presentation profile when rendering; do not create a
+separate Quarto project configuration in each presentation directory.
 
 ### 3. Write the presentation source
 
@@ -103,6 +103,20 @@ Every external claim, dataset, image, or borrowed idea needs attribution. Use
 links or citations in the slides and list the sources on a final slide. Do not
 include copyrighted material merely because it appeared in an image search,
 and do not commit credentials, private data, or large raw datasets.
+
+Keep the source readable and consistent with the course writing conventions:
+
+- Keep prose, Markdown, and Quarto source lines under 80 characters. Wrap a
+  long sentence rather than allowing one very long source line; code lines may
+  be longer when shortening them would make the example less readable.
+- Use the existing project metadata and configuration pattern. Do not add a
+  second Quarto project configuration or unrelated global settings.
+- Use a `### Further readings` or equivalent final-slide section when the
+  presentation has useful resources beyond the sources cited in the slides.
+- Use original explanations and examples. Do not copy another student's notes,
+  an instructor-authored chapter, or external material without attribution.
+- Use BibTeX for scholarly references when the presentation needs a formal
+  citation; ordinary links are appropriate for documentation and web resources.
 
 ### 4. Add the catalog entry
 
@@ -156,7 +170,10 @@ git push -u origin topic/your-name-short-topic
 Open a pull request that explains the idea, identifies the relevant chapter,
 and reports the rendering check. Keep the pull request focused on the deck and
 its catalog entry. Respond to review comments with revisions and additional
-commits; do not rewrite unrelated files in the same pull request.
+small commits; do not rewrite unrelated files in the same pull request. Make
+commits throughout the work as meaningful steps are completed rather than
+waiting to record one large final snapshot. Do not create empty commits or
+split changes artificially merely to increase the commit count.
 
 Students submit pull requests rather than pushing changes directly to `main`.
 The pull request is the place where the instructor and classmates can inspect

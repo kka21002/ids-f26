@@ -29,8 +29,8 @@ book: check-tools ## Render the book pages.
 	$(QUARTO) render $(QUARTO_ARGS)
 
 presentations: check-tools ## Render all topic and final presentations.
-	$(QUARTO) render topic $(QUARTO_ARGS)
-	$(QUARTO) render final $(QUARTO_ARGS)
+	$(QUARTO) render topic --profile presentations $(QUARTO_ARGS)
+	$(QUARTO) render final --profile presentations $(QUARTO_ARGS)
 
 preview: check-tools ## Preview the book with live reload.
 	$(QUARTO) preview $(QUARTO_ARGS)
@@ -41,7 +41,7 @@ render-one: check-tools ## Render one presentation specified by FILE.
 		exit 2; }
 	@test -f "$(FILE)" || { \
 		echo "Error: file not found: $(FILE)" >&2; exit 2; }
-	$(QUARTO) render "$(FILE)" $(QUARTO_ARGS)
+	$(QUARTO) render "$(FILE)" --profile presentations $(QUARTO_ARGS)
 
 publish: render ## Render and publish the complete site to GitHub Pages.
 	$(QUARTO) publish gh-pages --no-render --no-prompt $(QUARTO_ARGS)

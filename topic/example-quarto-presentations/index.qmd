@@ -4,6 +4,8 @@ subtitle: "Introduction to Data Science | Fall 2026"
 author: "Example presentation"
 format:
   revealjs:
+    width: 1280
+    height: 720
     slide-number: true
     preview-links: auto
     theme: default
@@ -46,16 +48,11 @@ Use `#` for a section slide and `##` for an ordinary slide.
 
 ## Executable Python
 
-Use an executable code cell when the result matters:
-
-````markdown
-```{python}
-values = [2, 3, 5, 8]
-sum(values) / len(values)
-```
-````
+Use an executable code cell when the result matters. The source and its
+computed output stay together on the slide:
 
 ```{python}
+#| echo: true
 values = [2, 3, 5, 8]
 sum(values) / len(values)
 ```

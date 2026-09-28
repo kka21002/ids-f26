@@ -1,0 +1,101 @@
+---
+title: "Presentation Skills for Data Science"
+subtitle: "Introduction to Data Science | Fall 2026"
+author: "Example presentation"
+format:
+  revealjs:
+    width: 1280
+    height: 720
+    slide-number: true
+    preview-links: auto
+    theme: default
+    incremental: false
+jupyter: python3
+bibliography: ../../references.bib
+---
+
+## A deliberately bad presentation
+
+- Put the entire script on every slide.
+- Use tiny text, crowded tables, and unlabeled figures.
+- Read the slides word for word.
+- Show code without explaining what the audience should notice.
+- Finish without a clear message or takeaway.
+
+The result is not merely unattractive. It makes the audience work harder to
+decide what matters, while the presenter competes with the screen for attention.
+
+## Turn the bad presentation into a good one
+
+| Bad habit | Better choice |
+|:--|:--|
+| Several ideas on one slide | One idea with a descriptive heading |
+| A paragraph of explanation | A short claim, supported while speaking |
+| A decorative or crowded figure | A labeled figure that answers a question |
+| Code copied from a script | Only the lines needed for the point |
+| A summary of everything shown | Two or three specific takeaways |
+
+Good slides support the speaker. They do not try to replace the speaker.
+
+## Good slides still need good delivery
+
+- Face the audience instead of reading the screen.
+- Explain why each example, table, or figure is present.
+- Pause after an important result.
+- Vary pace and emphasis so the main idea is audible.
+- Rehearse the transitions, timing, and final takeaway.
+
+Visual design and delivery work together: a clean slide cannot rescue an
+unclear explanation, and a strong explanation is harder to follow on a crowded
+slide.
+
+## Five things presenters need to know about people
+
+Susan Weinschenk’s five reminders are useful when planning a data-science talk:
+
+1. People learn best in shorter chunks, so divide a long talk into sections.
+2. Visual and auditory channels compete, so do not make the audience read
+   dense slides while listening.
+3. Words are only part of the message; tone and body language also communicate.
+4. If you want the audience to act, state the desired action explicitly.
+5. The presenter’s energy affects the audience, so show why the topic matters.
+
+These are design prompts, not substitutes for knowing your audience or testing
+whether the presentation is understandable.
+
+## A practical review before presenting
+
+Ask a classmate to answer these questions after a practice run:
+
+1. What was the presentation's main question?
+2. Which example or figure helped you understand it?
+3. What should you remember or do differently afterward?
+
+If the answers are unclear, revise the story before adding more slides.
+
+## Tell a clear data story
+
+- **Question:** What decision or question motivates the analysis?
+- **Data:** Where did the data come from, and which variables matter?
+- **Evidence:** What does the labeled figure or table show?
+
+Show only the code needed to make the example reproducible. Explain the pattern
+in the evidence before discussing the Python package or statistical method.
+
+## Make claims proportionate to the evidence
+
+- Distinguish association, prediction, and causation.
+- Report uncertainty and important assumptions.
+- State meaningful limitations, including what the data cannot show.
+- End by saying exactly what the evidence supports.
+
+## Sources
+
+- [Quarto presentations](https://quarto.org/docs/presentations/)
+- [RevealJS format options](https://quarto.org/docs/presentations/revealjs/)
+
+The presentation-design and delivery advice is informed by
+[@phillips2014avoid; @treasure2014speak; @weinschenk2012five].
+
+::: {#refs}
+:::
