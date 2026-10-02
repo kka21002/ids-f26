@@ -416,7 +416,7 @@ accepted.
 |---|---|---|
 | 09/28 | Liu, Ethan | [topic] |
 | 09/30 | Noe, Amanda | [topic] |
-| 10/05 | Anikeev, Katerina | [topic] |
+| 10/05 | Anikeev, Katerina | [ Visualizing Spatial Data] |
 | 10/07 | Chervonny, Erik | [topic] |
 | 10/12 | Mansur, Mahiba | [topic] |
 | 10/14 | Ong, Enrico | [topic] |
