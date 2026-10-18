@@ -1,13 +1,10 @@
 import geopandas as gpd
 import pandas as pd
 
-# Load county boundaries
-counties = gpd.read_file(
-    "data/county_boundaries/cb_2020_us_county_500k.shp"
+# Load the 2020 Connecticut-only county boundaries
+ct_counties = gpd.read_file(
+    "data/ct_county_boundaries/ct_counties_2020.shp"
 )
-
-# Keep only Connecticut
-ct_counties = counties[counties["STATEFP"] == "09"].copy()
 
 # Load population and land-area data
 data = pd.read_csv(
