@@ -1,5 +1,1 @@
-/.quarto/
-**/*.quarto_ipynb
-
-/_rendered/
-/visualizing-spatial-data_files/
+/ct_population_density.svg

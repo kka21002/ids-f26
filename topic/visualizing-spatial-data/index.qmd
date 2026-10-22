@@ -2,7 +2,6 @@
 title: "Visualizing Spatial Data"
 author: "Katerina Anikeev"
 bibliography: references.bib
-nocite: '@*'
 execute:
   enabled: true
   echo: true
@@ -26,7 +25,7 @@ jupyter: python3
 
 # Introduction to Geospatial Analysis
 
-Geospatial analysis is the process of using location and geographic information to understand patterns, relationships, and changes across space.
+Geospatial analysis uses location and geographic information to understand patterns, relationships, and changes across space [@nathan2020geospatial].
 
 It can help us answer questions like:
 
@@ -201,8 +200,8 @@ To create a **choropleth map** to answer our question.
 
 # How I Made the Map
 
-1. Downloaded 2020 county boundaries from the **U.S. Census**
-2. Added 2020 population and land-area data
+1. Downloaded 2020 county boundaries from the **U.S. Census** [@census2020boundaries]
+2. Added 2020 population and land-area data [@census2020ctdata]
 3. Calculated population density
 4. Used **GeoPandas** to create a choropleth map
 
@@ -281,17 +280,17 @@ ct_counties.plot(
 ax.set_title("Connecticut Population Density, 2020", fontsize=14, pad=12)
 ax.set_axis_off()
 
-plt.savefig("ct_population_density.png", dpi=300, bbox_inches="tight")
+plt.savefig("ct_population_density.svg", format="svg", bbox_inches="tight")
 plt.close(fig)
 ```
 
 ## CT Population Density
 
-![](ct_population_density.png){width=50% height=25%}
+![](ct_population_density.svg){width=50% height=25%}
 
 ## GeoPandas
 
-**GeoPandas** extends pandas to work with geographic data.
+**GeoPandas** extends pandas to work with geographic data [@geopandas].
 
 It allows us to:
 
@@ -348,9 +347,11 @@ The two approaches can complement each other.
 
 Python is one tool among many for working with spatial data.
 
-## Sources / AI Disclosure
-I used Chat GPT Version Luna 5.6 (Free version), to help me
-with the coding aspect of the map making, as well as to advise on slides
-and file organization.
+## References
+
 ::: {#refs}
 :::
+
+## AI Use Disclosure
+
+I used ChatGPT (Luna 5.6, free version) for coding help with the map and advice on slide design and file organization.
