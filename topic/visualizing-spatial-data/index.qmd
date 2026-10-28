@@ -20,12 +20,14 @@ jupyter: python3
 - Katya Anikeev,
 - Senior, Political Science, Applied Data Analysis
 - Hobbies include reading, writing, and lifting weights
-- Love geography and mapmaking, currently taking advanced cartographic techniques
+- Love geography and mapmaking, currently taking advanced cartographic
+  techniques
 
 
 # Introduction to Geospatial Analysis
 
-Geospatial analysis uses location and geographic information to understand patterns, relationships, and changes across space [@nathan2020geospatial].
+Geospatial analysis uses location and geographic information to understand
+patterns, relationships, and changes across space [@nathan2020geospatial].
 
 It can help us answer questions like:
 
@@ -56,7 +58,8 @@ Python can be used throughout the data analysis process:
 3. **Analyze spatial relationships**
 4. **Create maps and visualizations**
 5. **Export or share the results**
-This makes it possible to connect multiple steps of an analysis in one workflow.
+This makes it possible to connect multiple steps of an analysis in one
+workflow.
 
 
 ## Why Does Reproducibility Matter?
@@ -79,11 +82,14 @@ make_map(result)
 There are many sources of geographic data, including:
 
 - **Esri / ArcGIS** — maps, geographic boundaries, and many public datasets
-- **U.S. Census Bureau** — population, housing, demographic, and geographic data
+- **U.S. Census Bureau** — population, housing, demographic, and geographic
+  data
 - **NOAA** — weather, climate, ocean, and environmental data
 - **USGS** — elevation, land use, water, and geological data
-- **OpenStreetMap** — roads, buildings, businesses, and other geographic features
-- **State and local governments** — transportation, planning, environmental, and public-service data
+- **OpenStreetMap** — roads, buildings, businesses, and other geographic
+  features
+- **State and local governments** — transportation, planning, environmental,
+  and public-service data
 
 
 # What Formats Can Spatial Data Have?
@@ -131,12 +137,14 @@ Examples:
 - Excel
 - Database tables
 
-A table can be combined with geographic boundaries using a shared variable such as a county or state name.
+A table can be combined with geographic boundaries using a shared variable such
+as a county or state name.
 
 
 ## How Does Python Use Spatial Data?
 
-Python has libraries that allow us to read, manipulate, analyze, and visualize spatial data.
+Python has libraries that allow us to read, manipulate, analyze, and visualize
+spatial data.
 
 For example, **GeoPandas** can read a geographic file:
 
@@ -200,7 +208,8 @@ To create a **choropleth map** to answer our question.
 
 # How I Made the Map
 
-1. Downloaded 2020 county boundaries from the **U.S. Census** [@census2020boundaries]
+1. Downloaded 2020 county boundaries from the **U.S. Census**
+   [@census2020boundaries]
 2. Added 2020 population and land-area data [@census2020ctdata]
 3. Calculated population density
 4. Used **GeoPandas** to create a choropleth map
@@ -304,7 +313,8 @@ For this example, GeoPandas handled the county boundaries and map creation.
 
 ## GeoDataFrames
 
-A **GeoDataFrame** combines traditional tabular data with geographic information.
+A **GeoDataFrame** combines traditional tabular data with geographic
+information.
 
 For example:
 
@@ -341,7 +351,8 @@ The two approaches can complement each other.
 
 - Spatial data connects **information with location**
 - Python can work with many geographic data sources and formats
-- **GeoPandas** brings geospatial analysis into the Python data-science workflow
+- **GeoPandas** brings geospatial analysis into the Python data-science
+  workflow
 - Different questions require different types of maps
 - Code can make spatial analysis **repeatable and reproducible**
 
@@ -354,4 +365,5 @@ Python is one tool among many for working with spatial data.
 
 ## AI Use Disclosure
 
-I used ChatGPT (Luna 5.6, free version) for coding help with the map and advice on slide design and file organization.
+I used ChatGPT (Luna 5.6, free version) for coding help with the map and advice
+on slide design and file organization.

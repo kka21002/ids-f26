@@ -34,4 +34,7 @@ rows each summary used and what the result does not show.
 **Topic presentation:**
 [Visualizing Spatial Data](../topic/visualizing-spatial-data/)
 
-This presentation uses Python and GeoPandas to map population density across Connecticut's eight counties. It demonstrates how geographic boundary data and population statistics can be combined to create a choropleth map and communicate spatial variation.
+This presentation uses Python and GeoPandas to map population density across
+Connecticut's eight counties. It demonstrates how geographic boundary data and
+population statistics can be combined to create a choropleth map and
+communicate spatial variation.
